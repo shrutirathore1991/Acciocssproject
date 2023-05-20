@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    /* background-color: blueviolet; */
+    scroll-behavior: smooth;
+    -webkit-margin-collapse: collapse;
+    background-image: url(./books2.jpg);
+}
+header{
+    background-color:black;
+    color: white;
+    width:98%;
+    height:15vh;
+    text-align:right;
+    font-size: 20px;
+    border: 3px solid darkgreen;
+    position: sticky;
+    top: 0px; 
+    left:0px;
+    margin:10px
+    
+}
+
+li{
+    display: inline;
+    color: aqua;
+   padding: 8px;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+    margin: 8px;
+}
+a:hover{
+    color:red;
+  }
+  .section{
+    background-attachment:rgb(191, 191, 191);
+
+  }
+  .library{
+    padding: 0;
+    margin: 0;
+    text-align:left;
+    color:lightgreen;
+    font-size: 35px;
+  }
+  
+.tablehead{
+
+    background-color:black;
+    color:white;
+    text-align: center;
+    height:40px;
+    width:650px;
+    padding: 20px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    border:2px solid black;
+    text-decoration: underline;
+    align-content: center;
+    
+}
+ 
+  table ,tr, td,th {
+    border: solid 1px darkblue;
+    text-align: center;
+    
+    
+  }
+  th{
+    color:purple;
+  }
+  .title{
+    color: red;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  div{
+     background-color: white;
+     width: 780px;
+     height: 580px;
+     margin: auto;
+     padding:20px;
+
+  }
+  .nested{
+    width: 280px;
+    position: relative;
+    margin: 2px;
+  }
+  .registration{
+    height: 400px;
+    align-content: center;
+  }
+  #registration{
+    border: 3px solid darkblue;
+    width:600px ;
+    height: 310px;
+
+  }
+  .registerhere
+  {
+    background-color:black;
+    color:white;
+    text-align: center;
+    height:40px;
+    width: 540px;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    border:2px solid darkblue;
+  }
+  input[value="Register"]{
+    color:white;
+    background-color:rgb(26, 12, 84);
+    color:white;
+    background-color:black;
+    height:40px;
+    font-size: 20px;
+  }
+  input[type]{
+    width: 70%;
+   
+   }
+  .regiterhere, label,input{
+    position: relative;
+    left: 10px;
+  }
+  input[type="text"], input[type="email"]{
+    background-color:rgb(240, 224, 226);
+  }
+  label::after{
+    content: "*";
+    color: red;
+  }
+  input::placeholder{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .foot{
+    height: 100px;
+    width:500px;
+    align-content: right;
+    color: white;
+  }
+ 

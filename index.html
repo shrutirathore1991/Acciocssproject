@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h3 class="library">Library System</h3>
+        <ul>
+          <li><a href="#Books" target="_blank">Books</a></li>
+          <li><a href="#Register">Register</a></li>
+          <li href="#">Contact Us</li>
+          <li href="#">Logout</li>
+          
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="image" style="height: 200px">
+        <img src="./books.jpg" alt="keep reading" width="700px" height="200px">
+      </div>
+        <div >
+            <section id="Books" class="section">
+          <h2 class="tablehead">Books</h2>
+          <table class="div-first">
+            <thead>
+              <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>
+                  <span class="title"> Lord of the Rings</span>
+                  <table class="nested">
+                    <tr>
+                      <td>Publication Year:1955</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:180</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN :798-4781620074</td>
+                    </tr>
+                  </table>
+                </td>
+
+                <td>J. R. R. Tolkien</td>
+                <td>Fantasy</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>
+                  <span class="title">Harry Potter</span>
+                  <table class="nested">
+                    <tr>
+                      <td>Publication Year: 1997</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:250</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN :978-0545162074</td>
+                    </tr>
+                  </table>
+                </td>
+                <td>J. K. Rowling</td>
+                <td>Fantasy</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>
+                  <span class="title">Rich Dad Poor Dad</span>
+                  <table class="nested">
+                    <tr>
+                      <td>Publication Year: 2000</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:207</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN:446-67745-0</td>
+                    </tr>
+                  </table>
+                </td>
+                <td>Robert Kiyosaki</td>
+                <td>Personal finance</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>
+                  <span class="title">The Science of Mind Management</span>
+                  <table class="nested">
+                    <tr>
+                      <td>Publication Date: 2020</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:228</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN :978-9634890123</td>
+                    </tr>
+                  </table>
+                </td>
+                <td>Swami Mukundananda</td>
+                <td>Self Help</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>
+                  <span class="title">Atomic Habits</span>
+                  <table class="nested">
+                    <tr>
+                      <td>Publication Date: 2018</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:320</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN :993-0087890123</td>
+                    </tr>
+                  </table>
+                </td>
+                <td>James Clear</td>
+                <td>Self Help</td>
+                <td>Available</td>
+              </tr>
+            </tbody>
+          </table>
+      </section>
+    </div>
+
+      <hr>
+    
+      <section id="Register" class="Register">
+        <div class="registration">
+            <h2 class="registerhere">Register</h2>
+            <form action="" method="post">
+                <label for="firstname">First Name</label>
+                <br>
+                <input type="text" id="fname" placeholder="Enter your first name here" required>
+                <br>
+                <label for="lastname">Last Name</label>
+                <br>
+                <input type="text" id="lname" placeholder="Enter your last name here" required>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" placeholder="Enter your email here" required>
+                <br>
+                <label for="DOB">Date Of Birth</label>
+                <br>
+                <input type="date" id="dob" placeholder="Enter your DOB here" required>
+                <br>
+                <label for="Age">Age*</label>
+                <br>
+                <input type="number" id="age" min="5" max="100" required>
+                <br>
+                <label for="Password">Password</label>
+                <br>
+                <input type="password" id="password" placeholder="Create Password" required>
+                <br>
+                <label for="Passwordconfirmation">Confirm Password</label>
+                <br>
+                <input type="password" id="confirmpassword" placeholder="Re-enter Password" required>
+                <br>
+                <input type="submit" value="Register">
+            </form>
+        </div>
+      </section>
+
+   </main>
+   <footer>
+    <h1 class="foot">Keep Reading Keep Exploring</h1> 
+   </footer>
+  </body>
+</html>
